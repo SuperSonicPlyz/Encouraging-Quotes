@@ -62,3 +62,9 @@ build-*/
 # CLion
 .idea/
 /cmake-build-*/
+
+# Ignore Build Folders
+**build/
+
+# Ignore Platform Specific Build Folders
+build-*/
