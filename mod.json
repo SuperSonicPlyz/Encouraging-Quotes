@@ -10,5 +10,12 @@
 	"name": "Encouraging Quotes",
 	"version": "v1.0.2",
 	"developer": "MobMasterMind",
-	"description": "A mod to help you Emotionally"
+	"description": "A mod to help you Emotionally",
+	"dependencies": [
+	        {
+	            "id": "geode.node-ids",
+	            "version": ">=v1.14.0",
+	            "importance": "required"
+	        }
+    	]
 }
