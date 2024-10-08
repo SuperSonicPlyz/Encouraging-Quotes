@@ -6,5 +6,9 @@ This mod adds a button to the pause menu and Main menu. The button tells you all
 
 there is an extremely rare quote which has a 0.1% chance. if you find it, make sure to ping me in the geode discord. (@mobmastermind)
 
+Credits:
+- MobMasterMind (Me) - For the base code and developement.
+- Firee - Help with Android and Mac support.
+
 quote credits:
 - MobMasterMind (101 Quotes)
