@@ -10,12 +10,19 @@
 	"name": "Encouraging Quotes",
 	"version": "v1.1.0",
 	"developer": "MobMasterMind",
-	"description": "A mod to help you Emotionally",
+	"description": "Fixes Your Emotional Damage.",
 	"dependencies": [
 	        {
 	            "id": "geode.node-ids",
-	            "version": ">=v1.14.0",
+	            "version": ">=v1.15.0",
 	            "importance": "required"
 	        }
-    	]
+    	],
+	"settings": {
+		"enableButtoninMenuLayer": {
+			"type": "bool",
+			"default": true,
+			"name": "Enable Button in Main Menu"
+		}
+	}
 }
