@@ -10,16 +10,7 @@
 
 using namespace geode::prelude;
 
-// Quote Function
-std::string getRandomQuote() {
-    // Rare Quote
-    std::string rareQuote = "Good Job! You found an extremely rare quote, you might just be able to now beat this level!";
-
-    if ((rand() % 10000) == 0) {
-        return rareQuote;
-    }
-
-    // List of quotes
+// List of quotes
     std::vector<std::string> quotes = {
         "You've got this, just keep trying. you're so close!", // 1
 		"Every fail is just practice for success. Keep at it!", // 2
@@ -126,6 +117,15 @@ std::string getRandomQuote() {
 		"If there's no failure, there's no point of success." // 103
 		"Just imagine how hard it is when player verify Top 1's" //104
     };
+
+// Quote Function
+std::string getRandomQuote() {
+    // Rare Quote
+    std::string rareQuote = "Good Job! You found an extremely rare quote, you might just be able to now beat this level!";
+
+    if ((rand() % 10000) == 0) {
+        return rareQuote;
+    }
 
     int randomIndex = rand() % quotes.size();
     return quotes[randomIndex];
