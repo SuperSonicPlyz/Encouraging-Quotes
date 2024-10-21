@@ -141,31 +141,6 @@ class $modify(MyMenuLayer, MenuLayer) {
 
         auto menu = this->getChildByID("bottom-menu");
 
-        listenForSettingChanges("enableButtoninMenuLayer", [this, menu](bool EnableQuoteButtononMainMenu) {
-            if (menu) {
-                if (EnableQuoteButtononMainMenu == true) {
-                    
-					auto myButton = CCMenuItemSpriteExtra::create(
-                        CCSprite::createWithSpriteFrameName("GJ_chatBtn_001.png"),
-                        this,
-                        menu_selector(MyMenuLayer::onMyButton)
-                    );
-
-                    myButton->setID("quote-button"_spr);
-                    menu->addChild(myButton);
-
-                } else {
-                    
-					auto buttonToRemove = menu->getChildByID("quote-button"_spr);
-                    if (buttonToRemove) {
-                        menu->removeChild(buttonToRemove, true);
-                    }
-                }
-                
-                menu->updateLayout();
-            }
-        });
-
         if (Mod::get()->getSettingValue<bool>("enableButtoninMenuLayer")) {
             auto myButton = CCMenuItemSpriteExtra::create(
                 CCSprite::createWithSpriteFrameName("GJ_chatBtn_001.png"),

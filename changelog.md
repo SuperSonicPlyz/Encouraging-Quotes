@@ -1,3 +1,6 @@
+# 1.1.2
+- Emergency Fixed a major bug with the setting crashing the game and also causing lag.
+
 # 1.1.1
 - Fixed a bug where all of the quotes could appear at once.
 - Fixed my lazy code to actually make the "Rare Quote" rare.

@@ -11,4 +11,4 @@ Credits:
 - Firee - Help with Android and Mac support.
 
 quote credits:
-- MobMasterMind (101 Quotes)
+- MobMasterMind (105 Quotes)
