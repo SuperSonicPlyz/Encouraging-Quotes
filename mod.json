@@ -24,5 +24,7 @@
 			"default": true,
 			"name": "Enable Button in Main Menu"
 		}
-	}
+	},
+
+	"tags": ["offline"]
 }
