@@ -1,1 +1,1 @@
-If you wanna submit quotes for me to add to the mod, dm me on discord. My handle there is @MobMasterMind.
+This is where he makes a mod.
