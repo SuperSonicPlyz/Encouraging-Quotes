@@ -44,6 +44,8 @@ std::string getRandomQuote() {
         return rareQuote;
     }
 
+    std::vector<std::string> customquotes = loadQuotesFromFile(Mod::get()->getConfigDir() / "custom.txt");
+
     bool jokequoteson = Mod::get()->getSettingValue<bool>("jokequoteson");
     bool kysquoteson = Mod::get()->getSettingValue<bool>("kysquoteson");
     bool quoteson = Mod::get()->getSettingValue<bool>("quoteson");
@@ -64,7 +66,6 @@ std::string getRandomQuote() {
     }
 
     if (customquoteson) {
-        std::vector<std::string> customquotes = loadQuotesFromFile(Mod::get()->getConfigDir() / "custom.txt");
         if (customquotes.empty()) return "Edit The custom file (Tutorial in Mod Description) -Encouraging Quotes";
         activePools.push_back(&customquotes);
     }
