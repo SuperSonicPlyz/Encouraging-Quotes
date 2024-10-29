@@ -1,3 +1,6 @@
+# 1.3.1
+- Fix crash when clicking quotes button when ONLY custom quotes were enabled.
+
 # 1.3.0
 ## New Features:
 - Added Joke quotes
