@@ -1,4 +1,18 @@
-# 1.2.0 (formerly 1.1.1 - 1.1.3)
+# 1.3.0
+## New Features:
+- Added Joke quotes
+- Added Discouraging quotes
+- Separated the quotes from the main file to improve performance.
+- Added the discord button to the Mod section since i forgot.
+- Rewrote most of the mod's code to improve readability and possibly performance.
+- Added the ability to add Custom quotes since the new file loading system allows this to work.
+- Rewrote mod description.
+
+## Bugfixes:
+- Fixed a bug where the Quote will appear in black text for some reason.
+- Fixed a bug where the Quote button sometimes won't appear on android if the setting is enabled.
+
+# 1.2.0 (formerly 1.1.1 - 1.1.2)
 - Fixed a bug where all of the quotes could appear at once.
 - Fixed my lazy code to actually make the "Rare Quote" rare.
 - Change chance for rare quote from 0.1% to 0.01%

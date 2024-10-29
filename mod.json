@@ -8,13 +8,13 @@
 	},
 	"id": "mobmastermind.encouraging-quotes",
 	"name": "Encouraging Quotes",
-	"version": "v1.2.0",
+	"version": "v1.3.0",
 	"developer": "MobMasterMind",
 	"description": "Fixes Your Emotional Damage.",
 	"dependencies": [
 	        {
 	            "id": "geode.node-ids",
-	            "version": ">=v1.15.0",
+	            "version": ">=v1.16.0",
 	            "importance": "required"
 	        }
     	],
@@ -23,8 +23,50 @@
 			"type": "bool",
 			"default": true,
 			"name": "Enable Button in Main Menu"
+		},
+		"quotecustomizationtitle": {
+			"type": "title",
+			"name": "Quote Customization"
+		},
+		"quoteson": {
+			"type": "bool",
+			"default": true,
+			"name": "Enable Encouraging Quotes",
+			"description": "Only Disable this if you wanna enable the other 2 settings."
+		},
+		"jokequoteson": {
+			"type": "bool",
+			"default": false,
+			"name": "Enable Joke Quotes",
+			"description": "Enable if you wanna give yourself a laugh"
+		},
+		"kysquoteson": {
+			"type": "bool",
+			"default": false,
+			"name": "Enable Discouraging Quotes",
+			"description": "Hightly not recommended. Might give you Emotional Damage."
+		},
+
+		"customquoteson": {
+			"type": "bool",
+			"default": false,
+			"name": "Enable Custom Quotes",
+			"description": "To customize these, edit the Custom.txt file. Simply click the settings icon on the bottom left of the settings menu"
 		}
 	},
 
-	"tags": ["offline"]
+	"tags": ["offline", "gameplay"],
+
+	"links": {
+		"community": "http://dsc.gg/mobmastermind",
+		"source": "http://github.com/supersonicplyz/encouraging-quotes"
+	},
+
+	"resources": {
+		"files": [
+			"resources/quotes.txt",
+			"resources/jokequotes.txt",
+			"resources/kysquotes.txt"
+		]
+	}
 }
