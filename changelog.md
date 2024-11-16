@@ -1,5 +1,10 @@
+# 1.3.2
+- Geode 4.0.0 (2.207) Support.
+- Added a few more quotes, all taken from the quote submission channel in [My Discord]((https://discord.gg/wThzkVxKuF)).
+- Fixed grammar on some quotes.
+
 # 1.3.1
-- Fix crash when clicking quotes button when ONLY custom quotes were enabled.
+- Fix crash when clicking quotes button ONLY when custom quotes were enabled.
 
 # 1.3.0
 ## New Features:
